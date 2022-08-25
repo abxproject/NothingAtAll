@@ -9,7 +9,7 @@ int askTheQuestion() {
     printf("2: Ah, okay (Cautious approach");
 };
 int soItBegins() {
-    int option;
+    int option = 0;
     sleep(3);
     printf("Finished loading...\n");
     sleep(0.1);
