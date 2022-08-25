@@ -8,8 +8,7 @@ char input1[20];
 void startGame() {
 
 printf("Game starting\n");
-    //scanf(" %20[^\n]",  input1);
-    //printf("%s", input1);
+
 
      initChapter1();
 
