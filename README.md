@@ -10,3 +10,8 @@ cd build
 cmake ../
 ```
 You can call the directory whatever you want, it doesn't have to be build.
+
+## Special Thanks
+
+JetBrains provided free licenses to contributors of this project: find out more [here](https://www.jetbrains.com/community/opensource/)  
+![jb_beam](https://user-images.githubusercontent.com/104514709/186678034-72493c51-b73e-461b-a02f-57471bb6ce5a.png)
