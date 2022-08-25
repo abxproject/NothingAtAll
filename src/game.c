@@ -2,10 +2,15 @@
 
 #include "game.h"
 #include <stdio.h>
-char input1;
+#include <stdlib.h>
+char input1[20];
 void startGame() {
 printf("Welcome to the game ");
-    input1 = scanf("&c", &input1);
+printf("Do you want to start the game? Type "y" to begin")
+    scanf(" %20[^\n]",  input1);
+    printf("%s", input1);
+    if(input1 == "y") {
 
+    }
 }
 
