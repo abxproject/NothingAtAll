@@ -20,7 +20,7 @@ int scene3() {
                strcpy(decidedscene3, "chose1.1");
                break;
            case 2:
-               strcpy(decidedscene3, "chose2.2");
+               strcpy(decidedscene3, "chose2.1");
                break;
        }
 
