@@ -5,18 +5,28 @@ int choseToAskAgain;
 int choseCautiousApproach;
 int option = 0;
 
+int scene3() {
+
+   if(choseCautiousApproach = 1) {
+       printf("\nAnyway, what are you doing here?\n");
+       printf("\nReply Options:\n");
+       printf("1: I'm just here, I guess.\n");
+       printf("2: I never thought about it.\n");
+   }
+}
 
 int askTheQuestion() {
     printf("Nothing at all.\n");
     printf("\nReply Options:\n");
     printf("1: Are you sure about that?\n");
-    printf("2: Ah, okay (Cautious approach)");
+    printf("2: Ah, okay (Cautious approach)\n");
     scanf("%i", &option);
     switch(option) {
         case 1:
             break;
         case 2:
             choseCautiousApproach = 1;
+            scene3();
             // printf("Successfully completed case2");
         default:
             break;
