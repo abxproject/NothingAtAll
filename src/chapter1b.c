@@ -3,7 +3,7 @@
 #include "chapter1b.h"
 char decidedscene3[4];
 void scene4() {
-    printf("Scene 4 success");
+    //printf("Scene 4 success");
 }
 
 // this is the worst code to ever exist
