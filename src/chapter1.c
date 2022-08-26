@@ -36,13 +36,16 @@ int scene3() {
        scanf("%i", &option);
        switch(option) {
            case 1:
-               strcpy(decidedscene3, "chose2.1");
+
+               initChapter1b21();
                break;
            case 2:
-               strcpy(decidedscene3, "chose2.2");
+
+               initChapter1b22();
                break;
            case 3:
-               strcpy(decidedscene3, "chose2.3");
+
+               initChapter1b23();
                break;
        }
    }
