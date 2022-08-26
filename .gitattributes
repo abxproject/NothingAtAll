@@ -9,3 +9,4 @@
 *.txt linguist-generated=false
 *.txt linguist-documentation=false
 *.txt linguist-detectable=true
+*.txt linguist-prose=false
