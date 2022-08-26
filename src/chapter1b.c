@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include "chapter1b.h"
 #include "terminal.h"
 char decidedscene3[4] = "1.0";
@@ -9,12 +10,17 @@ char commandInput[20];
 void endings() {
     if(ending = 1) {
         "Game OVER: Ending 1";
+
     }
     printf("Do you want to try again? (y or n)");
     scanf("%20s", commandInput);
     int test = strcmp(commandInput, "y");
     if(test == 0) {
         cmdTerminal();
+
+    }
+    else{
+        exit(0);
     }
 }
 
