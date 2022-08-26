@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include "chapter1.h"
+#include "chapter1b.h"
 #include <string.h>
 int choseToAskAgain;
 int choseCautiousApproach;

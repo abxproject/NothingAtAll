@@ -1,5 +1,5 @@
 
 #ifndef NOTHINGATALL_CHAPTER1B_H
 #define NOTHINGATALL_CHAPTER1B_H
-
+void initChapter1b();
 #endif //NOTHINGATALL_CHAPTER1B_H
