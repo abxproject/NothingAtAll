@@ -1,16 +1,10 @@
-name: C/C++ CI
-
-on: [push]
-
+on: push
 jobs:
-  ubuntu-build:
+  gcc-snapshot:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2.0.0
-    - name: Build project
-      uses: nicledomaS/cmake_build_action@v1.4
-      with:
-        submodule_update: ON
-        run_tests: ON
-        unit_test_build: -Dtest=ON
+      - uses: johelegp/gcc-snapshot@v1
+      - uses: actions/checkout@v2
+      - uses: johelegp/modern-cmake-buildsystem@v1 # This action.
+        with:
+          generate-options: "--preset=test"
