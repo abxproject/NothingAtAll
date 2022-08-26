@@ -6,7 +6,7 @@
 int choseToAskAgain;
 int choseCautiousApproach;
 int option = 0;
-char decidedscene3[];
+
 int scene3() {
    option = 0;
 
@@ -18,10 +18,10 @@ int scene3() {
        scanf("%i", &option);
        switch(option) {
            case 1:
-               strcpy(decidedscene3, "chose1.1");
+               init1bother();
                break;
            case 2:
-               strcpy(decidedscene3, "chose2.1");
+               init1bother();
                break;
        }
 
@@ -60,6 +60,7 @@ int askTheQuestion() {
     scanf("%i", &option);
     switch(option) {
         case 1:
+            scene3();
             break;
         case 2:
             choseCautiousApproach = 1;
