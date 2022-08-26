@@ -6,16 +6,40 @@ int choseCautiousApproach;
 int option = 0;
 
 int scene3() {
+   option = 0;
 
    if(choseCautiousApproach = 1) {
        printf("\nAnyway, what are you doing here?\n");
        printf("\nReply Options:\n");
        printf("1: I'm just here, I guess.\n");
        printf("2: I never thought about it.\n");
+       scanf("%i", &option);
+       switch(option) {
+           case 1:
+               break;
+           case 2:
+               break;
+       }
+
+   }
+   else {
+       printf("\n No, it's nothing. I don't know why you keep on harrassing me.");
+       printf("\n Or why you are even here in the first place!");
+       printf("\nReply Options:\n");
+       printf("1: I'm just here, I guess.\n");
+       printf("2: I never thought about it.\n");
+       scanf("%i", &option);
+       switch(option) {
+           case 1:
+               break;
+           case 2:
+               break;
+       }
    }
 }
 
 int askTheQuestion() {
+    option = 0;
     printf("Nothing at all.\n");
     printf("\nReply Options:\n");
     printf("1: Are you sure about that?\n");
@@ -39,6 +63,7 @@ int soItBegins() {
     sleep(0.1);
     printf("\nNothing At All: A Text Adventure by LandarXT\n");
     sleep(2);
+    
     printf("\nWelcome to my...\n ");
     sleep(0.2);
     printf("\nReply Options:\n");
