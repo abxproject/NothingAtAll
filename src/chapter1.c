@@ -2,14 +2,22 @@
 #include <unistd.h>
 #include "chapter1.h"
 int choseToAskAgain;
+int option = 0;
 int askTheQuestion() {
     printf("Nothing at all.");
     printf("\nReply Options:\n");
     printf("1: Are you sure about that?");
     printf("2: Ah, okay (Cautious approach");
+    scanf("%i", option);
+    switch(option){
+        case 1:
+            break;
+        default:
+            break;
+    }
 };
 int soItBegins() {
-    int option = 0;
+    option = 0;
     sleep(3);
     printf("Finished loading...\n");
     sleep(0.1);
