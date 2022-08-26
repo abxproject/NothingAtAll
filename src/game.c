@@ -8,9 +8,7 @@ char input1[20];
 void startGame() {
 
 printf("Game starting\n");
-
-
      initChapter1();
-
+     // Game is contained in the chapter files
 }
 
