@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "chapter1b.h"
-#include "main.c"
+#include "terminal.h"
 char decidedscene3[4] = "1.0";
 int option = 0;
 int ending = 1;

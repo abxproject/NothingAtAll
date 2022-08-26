@@ -1,0 +1,5 @@
+
+#ifndef NOTHINGATALL_TERMINAL_H
+#define NOTHINGATALL_TERMINAL_H
+void cmdTerminal();
+#endif //NOTHINGATALL_TERMINAL_H
