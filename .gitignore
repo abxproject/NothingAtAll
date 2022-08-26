@@ -132,3 +132,7 @@ _deps
 *-prefix/
 
 # End of https://www.toptal.com/developers/gitignore/api/clion,cmake
+.idea/vcs.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/NothingAtAll.iml
