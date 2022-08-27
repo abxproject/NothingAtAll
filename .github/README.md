@@ -11,7 +11,7 @@ mkdir build
 cd build
 cmake ../
 ```
-Then open up in your IDE or compiler of choice  
+Then open up the project in your IDE or compiler of choice  
 You can call the directory whatever you want, it doesn't have to be build.
 
 ## Special Thanks
