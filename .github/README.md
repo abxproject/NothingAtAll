@@ -11,7 +11,7 @@ mkdir build
 cd build
 cmake ../
 ```
-Then open up the project in your IDE or compiler of choice  
+Then open up the project in your IDE or compiler of choice (if you use MSVC you may have to swap <unistd.h> with <Windows.h>  
 You can call the directory whatever you want, it doesn't have to be build.
 
 ## Special Thanks
