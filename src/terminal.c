@@ -9,7 +9,7 @@ int isReset;
 void cmdTerminal() {
     char commandInput[20];
     if(isReset == 0) {
-        printf("NOTHING AT ALL DEVELOPMENT BUILD\n Input \"help\" for a list of commands\n");
+        printf("NOTHING AT ALL DEVELOPMENT BUILD\nInput \"help\" for a list of commands\n");
     }
     else if(isReset = 1) {
         sleep(1);
