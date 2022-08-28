@@ -8,7 +8,7 @@ int option1b = 0;
 int ending = 1;
 char commandInput[20];
 void endings() {
-    if(ending = 1) {
+    if(ending == 1) {
         "Game OVER: Ending 1";
 
     }
@@ -28,10 +28,10 @@ void scene4() {
     //printf("Scene 4 success");
    int strtest = strcmp(decidedscene3, "1.0");
    if(strtest == 0) {
-       printf("\n That's not good enough for me. WHY ARE YOU HERE");
-       printf("\n \n Reply Options: ");
-       printf("\n 1: you run away in fear");
-       printf("\n 2: Uhh, I... chose to be here");
+       printf("\nThat's not good enough for me. WHY ARE YOU HERE");
+       printf("\n\nReply Options: ");
+       printf("\n1: you run away in fear");
+       printf("\n2: Uhh, I... chose to be here");
        scanf("%i", &option1b);
        switch(option1b) {
            case 1:
