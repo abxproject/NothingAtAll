@@ -9,7 +9,7 @@ int ending = 1;
 char commandInput[20];
 void endings() {
     if(ending == 1) {
-        "Game OVER: Ending 1";
+        printf("Game OVER: Ending 1");
 
     }
     printf("Do you want to try again? (y or n)");
