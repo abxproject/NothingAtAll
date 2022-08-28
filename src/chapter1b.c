@@ -4,7 +4,7 @@
 #include "chapter1b.h"
 #include "terminal.h"
 char decidedscene3[4] = "1.0";
-int option = 0;
+int option1b = 0;
 int ending = 1;
 char commandInput[20];
 void endings() {
@@ -32,8 +32,8 @@ void scene4() {
        printf("\n \n Reply Options: ");
        printf("\n 1: you run away in fear");
        printf("\n 2: Uhh, I... chose to be here");
-       scanf("%i", &option);
-       switch(option) {
+       scanf("%i", &option1b);
+       switch(option1b) {
            case 1:
                ending = 1;
                endings();
