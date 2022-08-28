@@ -9,7 +9,7 @@ int ending = 1;
 char commandInput[20];
 void endings() {
     if(ending == 1) {
-        printf("Game OVER: Ending 1");
+        printf("Game OVER: Ending 1\n");
 
     }
     printf("Do you want to try again? (y or n)");
@@ -31,7 +31,7 @@ void scene4() {
        printf("\nThat's not good enough for me. WHY ARE YOU HERE");
        printf("\n\nReply Options: ");
        printf("\n1: you run away in fear");
-       printf("\n2: Uhh, I... chose to be here");
+       printf("\n2: Uhh, I... chose to be here\n");
        scanf("%i", &option1b);
        switch(option1b) {
            case 1:
