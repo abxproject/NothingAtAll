@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 #include <string.h>
-
+#include "game.h"
 #include <unistd.h>
 #include "terminal.h"
 

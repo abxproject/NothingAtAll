@@ -35,7 +35,9 @@ void scene4() {
        scanf("%i", &option);
        switch(option) {
            case 1:
-               ;
+               ending = 1;
+               endings();
+               break;
        }
 
 
