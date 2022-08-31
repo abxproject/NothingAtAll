@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include "game.h"
 #include "chapter1b.h"
 #include "terminal.h"
 char decidedscene3[4] = "1.0";
@@ -16,7 +17,7 @@ void endings() {
     scanf("%20s", commandInput);
     int test = strcmp(commandInput, "y");
     if(test == 0) {
-        cmdTerminal();
+        startGame();
 
     }
     else{
@@ -25,7 +26,6 @@ void endings() {
 }
 
 void scene4() {
-    //printf("Scene 4 success");
    int strtest = strcmp(decidedscene3, "1.0");
    if(strtest == 0) {
        printf("\nThat's not good enough for me. WHY ARE YOU HERE");
