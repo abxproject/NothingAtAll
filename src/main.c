@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "game.h"
+
 #include <string.h>
 #include "terminal.h"
 

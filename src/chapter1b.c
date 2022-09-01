@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "game.h"
+#include "chapter1.h"
 #include "chapter1b.h"
 
 char decidedscene3[4] = "1.0";
@@ -17,7 +17,7 @@ void endings() {
     scanf("%20s", commandInput);
     int test = strcmp(commandInput, "y");
     if(test == 0) {
-        startGame();
+        initChapter1();
 
     }
     else{

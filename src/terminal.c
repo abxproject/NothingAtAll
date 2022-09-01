@@ -1,8 +1,9 @@
 
 #include <stdio.h>
 #include <string.h>
-#include "game.h"
+
 #include <unistd.h>
+#include "chapter1.h"
 #include "terminal.h"
 
 int isReset;
@@ -28,7 +29,7 @@ void cmdTerminal() {
 
     int isStart = strcmp(commandInput, "start");
     if(isStart == 0) {
-        startGame();
+      initChapter1();
     }
     if(isStart != 0 && isHelp != 0) {
         printf("Looks like your input didn't match any of the commands, let's try again \n");
