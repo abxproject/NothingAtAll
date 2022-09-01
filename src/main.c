@@ -1,6 +1,4 @@
-#include <stdio.h>
 
-#include <string.h>
 #include "terminal.h"
 
 // Pretty small main function for this size of project right?
