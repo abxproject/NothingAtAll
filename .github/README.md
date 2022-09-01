@@ -10,7 +10,7 @@ mkdir build
 cd build
 cmake ../
 ```
-Then open up the project in your IDE or compiler of choice (if you use MSVC you may have to swap <unistd.h> with <Windows.h>  
+Then open up the project in your IDE or compiler of choice (MSVC is not officially supported because it would be too much effort. Try [MSYS2](https://www.msys2.org/) using GCC or Clang instead.  
 You can call the directory whatever you want, it doesn't have to be build.
 
 ## Special Thanks
