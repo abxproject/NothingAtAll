@@ -1,5 +1,5 @@
 
-#include "terminal.h"
+#include "func/terminal.h"
 
 // Pretty small main function for this size of project right?
 int main() {
