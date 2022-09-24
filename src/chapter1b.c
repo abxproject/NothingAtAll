@@ -3,27 +3,13 @@
 #include <stdlib.h>
 #include "chapter1.h"
 #include "chapter1b.h"
+#include "endings.h"
 
 char decidedscene3[4] = "1.0";
 int option1b = 0;
-int ending = 1;
-char commandInput[20];
-void endings() {
-    if(ending == 1) {
-        printf("Game OVER: Ending 1\n");
 
-    }
-    printf("Do you want to try again? (y or n)");
-    scanf("%20s", commandInput);
-    int test = strcmp(commandInput, "y");
-    if(test == 0) {
-        initChapter1();
 
-    }
-    else{
-        exit(0);
-    }
-}
+
 
 void scene4() {
    int strtest = strcmp(decidedscene3, "1.0");
@@ -35,8 +21,8 @@ void scene4() {
        scanf("%i", &option1b);
        switch(option1b) {
            case 1:
-               ending = 1;
-               endings();
+
+               endings(1);
                break;
        }
 
