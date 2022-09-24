@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "chapter1.h"
 #include "chapter1b.h"
-#include "endings.h"
+#include "func/endings.h"
 
 char decidedscene3[4] = "1.0";
 int option1b = 0;
