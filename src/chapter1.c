@@ -24,7 +24,6 @@ int scene3() {
                init1bother();
                break;
        }
-
    }
    else {
        printf("\n No, it's nothing. I don't know why you keep on harrassing me.");
@@ -51,7 +50,7 @@ int scene3() {
    }
 }
 
-int askTheQuestion() {
+int scene2() {
     option = 0;
     printf("Nothing at all.\n");
     printf("\nReply Options:\n");
@@ -70,7 +69,7 @@ int askTheQuestion() {
             break;
     }
 };
-int soItBegins() {
+int scene1() {
     option = 0;
     sleep(3);
     printf("Finished loading...\n");
